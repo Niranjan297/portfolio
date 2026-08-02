@@ -88,7 +88,7 @@ export const Navbar = () => {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors p-2 rounded-md hover:bg-white/5"
+                className="text-base font-medium text-foreground hover:text-primary transition-colors py-4 px-4 rounded-md hover:bg-white/5 active:bg-white/10"
               >
                 {link.name}
               </Link>
@@ -96,7 +96,7 @@ export const Navbar = () => {
             <Link
               href="#contact"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="mt-2 text-center px-4 py-2 rounded-md bg-primary text-primary-foreground font-semibold"
+              className="mt-2 text-center px-4 py-4 rounded-md bg-primary text-primary-foreground font-semibold active:bg-primary/80"
             >
               Hire Me
             </Link>
