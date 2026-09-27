@@ -31,8 +31,12 @@ export default function CertificatesPage() {
                   <div className="absolute inset-0 bg-accent/5 opacity-0 group-hover:opacity-100 transition-opacity z-10 pointer-events-none" />
                   
                   {cert.image ? (
-                    <div className="relative w-full h-full border border-white/10 rounded-lg overflow-hidden shadow-2xl">
-                      {/* You will need to place your actual images in public/certificates/ */}
+                    <a 
+                      href={cert.image} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="relative w-full h-full border border-white/10 rounded-lg overflow-hidden shadow-2xl block group-hover:scale-105 transition-transform duration-500 cursor-zoom-in"
+                    >
                       <Image 
                         src={cert.image} 
                         alt={cert.title}
@@ -40,7 +44,7 @@ export default function CertificatesPage() {
                         className="object-cover"
                         unoptimized
                       />
-                    </div>
+                    </a>
                   ) : (
                     <div className="text-center opacity-50">
                       <ShieldCheck className="w-16 h-16 mx-auto mb-4" />
