@@ -216,8 +216,7 @@ export const portfolioData = {
       {
         title: "Generative AI Mastery Workshop",
         issuer: "OpenAI Academy / NxtWave",
-        date: "Sep 2025",
-        image: "/certificates/openai.png"
+        date: "Sep 2025"
       }
     ],
     planned: ["OSCP (Offensive Security Certified Professional)", "eJPT"],
