@@ -205,13 +205,11 @@ export const portfolioData = {
         title: "Cybersecurity Analyst Job Simulation",
         issuer: "Tata / Forage",
         date: "Aug 2026",
-        image: "/certificates/tata.png"
       },
       {
         title: "Cyber Job Simulation",
         issuer: "Deloitte / Forage",
         date: "Aug 2026",
-        image: "/certificates/deloitte.png"
       }
     ],
     planned: ["OSCP (Offensive Security Certified Professional)", "eJPT"],
