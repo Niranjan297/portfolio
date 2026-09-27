@@ -4,6 +4,8 @@ import { Award, ExternalLink, ShieldCheck } from "lucide-react";
 import { HackerText } from "@/components/animations/HackerText";
 import Link from "next/link";
 
+import { TiltCard } from "@/components/animations/TiltCard";
+
 export const Certifications = () => {
   return (
     <section id="certifications" className="py-20 relative">
@@ -22,18 +24,20 @@ export const Certifications = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolioData.certifications.completed.map((cert, index) => (
-            <SlideUp key={index} delay={index * 0.1}>
-              <HoverLift className="h-full">
-                {cert.link ? (
-                  <Link href={cert.link} target="_blank" className="block h-full">
-                    <CertCard cert={cert} />
-                  </Link>
-                ) : (
-                  <div className="h-full">
-                    <CertCard cert={cert} />
-                  </div>
-                )}
-              </HoverLift>
+            <SlideUp key={index} delay={index * 0.1} className="h-full">
+              <TiltCard className="h-full">
+                <HoverLift className="h-full">
+                  {cert.link ? (
+                    <Link href={cert.link} target="_blank" className="block h-full">
+                      <CertCard cert={cert} />
+                    </Link>
+                  ) : (
+                    <div className="h-full">
+                      <CertCard cert={cert} />
+                    </div>
+                  )}
+                </HoverLift>
+              </TiltCard>
             </SlideUp>
           ))}
         </div>
