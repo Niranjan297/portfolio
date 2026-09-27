@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { CyberGridBackground } from "@/components/animations/CyberGridBackground";
+import { ParticlesBackground } from "@/components/animations/ParticlesBackground";
 import { CustomCursor } from "@/components/animations/CustomCursor";
 import { ScrollProgress } from "@/components/animations/ScrollProgress";
 
@@ -27,7 +27,7 @@ export default function RootLayout({
       >
         <ScrollProgress />
         <CustomCursor />
-        <CyberGridBackground />
+        <ParticlesBackground />
         {/* Fallback gradient if particles take a moment */}
         <div className="aurora-bg fixed" />
         <Navbar />
