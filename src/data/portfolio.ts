@@ -180,8 +180,35 @@ export const portfolioData = {
     },
   ],
   certifications: {
-    completed: ["Coming Soon"],
-    learning: ["Coming Soon"],
+    completed: [
+      {
+        title: "Cybersecurity Fundamentals",
+        issuer: "IBM SkillsBuild",
+        date: "Sep 2026",
+        link: "https://www.credly.com/badges/806e03c9-2fec-4f46-888d-36e8099f981d",
+      },
+      {
+        title: "Getting Started with Cybersecurity",
+        issuer: "IBM SkillsBuild",
+        date: "Sep 2026",
+        link: "https://www.credly.com/badges/8fecc959-32eb-41d7-89bb-6e447e148acd",
+      },
+      {
+        title: "Jr Penetration Tester (Legacy) Learning Path",
+        issuer: "TryHackMe",
+        date: "Aug 2026",
+      },
+      {
+        title: "Cybersecurity Analyst Job Simulation",
+        issuer: "Tata / Forage",
+        date: "Aug 2026",
+      },
+      {
+        title: "Cyber Job Simulation",
+        issuer: "Deloitte / Forage",
+        date: "Aug 2026",
+      }
+    ],
     planned: ["OSCP (Offensive Security Certified Professional)", "eJPT"],
   },
   contact: {
