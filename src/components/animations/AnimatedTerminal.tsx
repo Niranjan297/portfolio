@@ -35,7 +35,7 @@ export const AnimatedTerminal = () => {
           <div className="w-3 h-3 rounded-full bg-green-500/80" />
         </div>
         <div className="flex-1 text-center text-xs text-muted-foreground flex justify-center items-center gap-2">
-          <span>nk.cyber:~</span>
+          <span>niranjan:~</span>
         </div>
       </div>
 

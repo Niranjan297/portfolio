@@ -13,7 +13,7 @@ export const Footer = () => {
             <Link href="#" className="flex items-center gap-2 mb-4">
               <Shield className="w-6 h-6 text-primary" />
               <span className="font-bold text-lg tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
-                NK.CYBER
+                NIRANJAN
               </span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-sm mb-6">
