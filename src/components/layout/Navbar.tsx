@@ -36,11 +36,8 @@ export const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Magnetic strength={20}>
-          <Link href="#" className="flex items-center gap-2 group hover-trigger">
+          <Link href="#" className="flex items-center group hover-trigger">
             <Shield className="w-8 h-8 text-primary group-hover:animate-pulse-glow" />
-            <span className="font-bold text-lg tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
-              <HackerText text="NIRANJAN" />
-            </span>
           </Link>
         </Magnetic>
 
