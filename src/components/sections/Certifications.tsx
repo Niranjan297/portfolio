@@ -37,6 +37,13 @@ export const Certifications = () => {
             </SlideUp>
           ))}
         </div>
+        <div className="mt-12 flex justify-center">
+          <Link href="/certificates">
+            <button className="px-8 py-4 rounded-full border border-accent text-accent font-mono font-bold hover:bg-accent hover:text-black transition-all">
+              View All Certificates
+            </button>
+          </Link>
+        </div>
       </div>
     </section>
   );
