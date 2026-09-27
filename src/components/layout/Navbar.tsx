@@ -8,11 +8,12 @@ import { Magnetic } from "@/components/animations/Magnetic";
 import { HackerText } from "@/components/animations/HackerText";
 
 const navLinks = [
-  { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "/#about" },
+  { name: "Experience", href: "/#experience" },
+  { name: "Skills", href: "/#skills" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Certificates", href: "/certificates" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export const Navbar = () => {
@@ -57,7 +58,7 @@ export const Navbar = () => {
           ))}
           <Magnetic strength={30}>
             <Link
-              href="#contact"
+              href="/#contact"
               className="px-4 py-2 rounded-full border border-primary/50 text-primary hover:bg-primary/10 transition-colors text-sm font-medium hover-trigger"
             >
               Let&apos;s Connect
@@ -94,7 +95,7 @@ export const Navbar = () => {
               </Link>
             ))}
             <Link
-              href="#contact"
+              href="/#contact"
               onClick={() => setIsMobileMenuOpen(false)}
               className="mt-2 text-center px-4 py-4 rounded-md bg-primary text-primary-foreground font-semibold active:bg-primary/80"
             >
