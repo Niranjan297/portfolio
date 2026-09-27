@@ -101,7 +101,7 @@ export const Hero = () => {
               <div className="absolute inset-0 rounded-full border-2 border-primary/20 animate-[spin_10s_linear_infinite]" />
               <div className="absolute inset-2 rounded-full border-2 border-accent/40 border-dashed animate-[spin_15s_linear_infinite_reverse]" />
               <div className="absolute inset-4 rounded-full overflow-hidden bg-black/50 backdrop-blur-md flex items-center justify-center border border-border">
-                <Image src="/avatar.png" alt="Profile" fill className="object-cover" />
+                <Image src="/avatar.jpg" alt="Profile" fill className="object-cover" unoptimized />
               </div>
             </FadeIn>
 
